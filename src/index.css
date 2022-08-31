@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.add-cart-btn {
+  width: 100%;
+  margin-top: 1.5rem;
+  font-family: "Noto Sans";
+  border: none;
+  border-radius: 25px;
+  background-color: #294B4C;
+  padding: 0.25rem 0.5rem;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.add-cart-btn:hover {
+  opacity: 0.8;
+  transition: 0.3s ease-in;
+}
+
+.add-cart-btn:disabled{
+  background-color: darkred;
+  opacity: 1;
+  cursor: default;
+}
